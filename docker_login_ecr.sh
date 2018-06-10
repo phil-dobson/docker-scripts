@@ -4,5 +4,5 @@
 
 set -o errexit
 
-CMD=$(~/aws.sh ecr get-login --no-include-email)
+CMD=$(/home/core/aws.sh ecr get-login --no-include-email)
 $CMD
